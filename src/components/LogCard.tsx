@@ -6,7 +6,7 @@ interface LogCardProps {
 }
 
 export function LogCard({ log }: LogCardProps) {
-  const formattedDate = new Date(log.fecha).toLocaleString('es-ES', {
+  const formattedDate = new Date(log.fecha).toLocaleString('es-AR', {
     year: 'numeric',
     month: 'short',
     day: 'numeric',
